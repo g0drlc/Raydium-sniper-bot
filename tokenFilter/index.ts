@@ -42,7 +42,7 @@ export const checkTokenMetadata = async (connection: Connection, baseMint: Publi
 
     return { name, symbol, updateAuthority, isMutable, hasSocial }
   } catch (e: any) {
-    console.log("Check Mutable : ", e)
+    console.log("Check Mutable :", e)
     return
   }
 }
